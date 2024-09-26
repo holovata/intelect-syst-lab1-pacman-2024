@@ -1,0 +1,34 @@
+{
+    "levels": [
+        {
+            "maze_size": [10, 10],
+            "ghost_speed": 0.2,
+            "ghost_behaviour": "simple_chase",
+            "pathfinding_algorithm": "a_star"
+        },
+        {
+            "maze_size": [12, 12],
+            "ghost_speed": 0.25,
+            "ghost_behaviour": "simple_chase",
+            "pathfinding_algorithm": "bfs"
+        },
+        {
+            "maze_size": [14, 14],
+            "ghost_speed": 0.3,
+            "ghost_behaviour": "simple_chase",
+            "pathfinding_algorithm": "a_star"
+        },
+        {
+            "maze_size": [16, 16],
+            "ghost_speed": 0.45,
+            "ghost_behaviour": "coordinated_attack",
+            "pathfinding_algorithm": "dfs"
+        },
+        {
+            "maze_size": [18, 18],
+            "ghost_speed": 0.5,
+            "ghost_behaviour": "coordinated_attack",
+            "pathfinding_algorithm": "bfs"
+        }
+    ]
+}
